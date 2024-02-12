@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(190, 189, 189);
+  
+}
+h1 {
+  margin: 3px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Parisienne";
+  font-size: 450%;
+}
+h2 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 100%;
+}
+p {
+  text-align: center;
+  font-size: 125%;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  background-color: rgb(155, 155, 155);
+  padding: 10px;
+  width: 100%;
+}
+
+a:link {
+  color: black;
+  margin-left: 40px;
+}
+
+a:visited {
+  color: black;
+}
+
+pre {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;    
+}
