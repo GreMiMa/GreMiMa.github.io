@@ -1,16 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  display: grid;
   background-color: rgb(190, 189, 189);
 }
 
 .topnav {
+  width: 100%;
+  display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 100%;
   background-color: rgb(155, 155, 155);
   text-align: center;
-  display: flex;
   column-gap: 30px;
   justify-content: center;
 }
@@ -49,6 +50,14 @@ p {
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Playfair Display";
+}
+
+
+.viiva {
+border-bottom: 1px solid black;
+width: 150px;
+margin: auto;
+
 }
 
 .sisältö {
