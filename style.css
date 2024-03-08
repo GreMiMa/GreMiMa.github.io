@@ -5,6 +5,7 @@ body {
   background-color: rgb(190, 189, 189);
 }
 
+/* Navigaatiopalkin tausta */
 .topnav {
   width: 100%;
   display: flex;
@@ -16,6 +17,7 @@ body {
   justify-content: center;
 }
 
+/* Navigaatipalkin tekstit */
 .topnav a {
   text-align: center;
   font-size: 125%;
@@ -23,14 +25,17 @@ body {
   color: rgb(0, 0, 0);
 }
 
+/* Navigaation linkkien väri (musta) */
 a:link {
   color: black;
 }
 
+/* Navigaation linkkien väri, kun linkillä on vierailtu (musta) */
 a:visited {
   color: black;
 }
 
+/* Koko sivuston otsikko/logo/oma nimeni */
 h1 {
   margin-top: 30px;
   margin-bottom: 0%;
@@ -40,43 +45,48 @@ h1 {
   font-size: 450%;
 }
 
+/* Vierailtavan sivun otsikko */
 h2 {
   text-align: center;
   font-family: "Playfair Display";
   font-size: 150%;
 }
 
+/* Sisältöteksti */
 p {
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Playfair Display";
 }
 
-
+/* Kappaleiden välissä olevat väliviivat */
 .viiva {
 border-bottom: 1px solid black;
 width: 150px;
 margin: auto;
-
 }
 
+/* Index -sivun koko sisältö (tekstit + kuva) */
 .sisältö {
  display: flex;
  justify-content: center;
  column-gap: 25px;
 }
 
+/* Index -sivun teksti */
 .sisältö2 {
   display: grid;
   align-items: center;
 }
 
+/* Index -sivun kuva (omakuva) */
 .omakuva {
   display: flex;
   justify-content: center;
   height: auto;
 }
 
+/* Työkokemus välilehden koko sisältö (kuvat + tekstit) */
 .työsisältö {
   display: flex;
   flex-direction: row;
@@ -85,6 +95,7 @@ margin: auto;
   column-gap: 45px;
 }
 
+/* Työkokemus välilehden kuva minusta */
 .työkuva {
   display: flex;
   justify-content: center;
@@ -93,11 +104,13 @@ margin: auto;
   margin-top: 150px;
 }
 
+/* Työkokemus välilehden sisältöteksti */
 .work {
   display: grid;
   align-items: center;
 }
 
+/* Koulutus -välilehden koko sisältö (kuvat + tekstit) */
 .koulut {
   display: grid;
   align-items: center;
@@ -105,6 +118,7 @@ margin: auto;
   row-gap: 45px;
 }
 
+/* Koulutus -välilehden flex-box / kuva ja teksti vierekkäin */
 .column {
   display: flex;
   align-items: center;
@@ -112,12 +126,14 @@ margin: auto;
   column-gap: 45px;
 }
 
+/* Koulutus -välilehdellä oma ottama kuva Haaga-Heliasta */
 .koulukuva {
   display: block;
   max-width: 100%; 
   justify-content: center;
 }
 
+/* Kartta -elementin flex-box / column flex-boxin alapuolelle */
 .maps {
   display: flex;
   flex-direction: row;
@@ -125,6 +141,7 @@ margin: auto;
   justify-content: center;
 }
 
+/* Taidot -välilehden koko sisältö (kuvat + tekstit) */
 .taitoni {
   display: flex;
   flex-direction: row;
@@ -134,6 +151,7 @@ margin: auto;
   column-gap: 45px;
 }
 
+/* Taidot -välilehdellä olevat kuvat */
 .taitokuva {
   display: grid;
   flex-direction: row;
@@ -142,12 +160,13 @@ margin: auto;
   row-gap: 30px;
 }
 
+/* Taidot -välilehden teksti */
 .taitoteksti  {
   display: grid;
   align-items: center;
 }
 
-
+/* Uudet komennot/asetelmat pienemmälle näytölle */
 @media screen and (max-width: 600px){
 
   .topnav {
